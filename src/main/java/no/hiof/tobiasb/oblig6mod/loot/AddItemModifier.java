@@ -23,8 +23,8 @@ public class AddItemModifier extends LootModifier { // Denne codec-en legger til
 
     protected AddItemModifier(LootItemCondition[] conditionsIn, Item item) {
         super(conditionsIn);
-        this.item = item;
-    }
+        this.item = item; // Denne "item" er den som er lagt til av meg i resources/data/oblig6mod/loot_modifiers.
+    }                     // I global_loot_modifiers i data/forge/loot_modifiers refereres denne oppskriften.
 
     @Override
     protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
