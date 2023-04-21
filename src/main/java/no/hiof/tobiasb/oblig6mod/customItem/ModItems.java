@@ -15,8 +15,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));                                      // recipes under resources/data viser at man kan smelte en CREWMATE for
                                                                                          // å få en AMOGUS. Koden er hentet fra vanille minecraft, og modifisert.
     public static final RegistryObject<Item> AMOGUS = ITEMS.register("amogus",
-            () -> new Item(new Item.Properties()));                                      // Item.Properties gir itemet de riktige funksjonalitetene for å
-                                                                                         // kunne fungere som det skal i spillet.
+            () -> new Item(new Item.Properties().food(ModFoods.AMOGUS)));                // Item.Properties gir itemet de riktige funksjonalitetene for å
+                                                                                         // kunne fungere som det skal i spillet, denne er en food.
+                                                                                         // Koden for denne finnes i ModFoods, hvor jeg bare har kopiert vanilla-kode for Enchanted Golden Apple
+                                                                                         // og endret smått på den.
                                                                                          // In-game-navn for disse finnes i en_us.json i resources/assets/oblig6mod/lang
                                                                                          // sammen med en teit, norsk oversetning.
     public static void register(IEventBus eventbus) { // Som alltid er det en IEventBus nederst som sender info videre til Oblig6Mod, for å kunne laste det inn.
