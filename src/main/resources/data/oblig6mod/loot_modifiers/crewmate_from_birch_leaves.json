@@ -1,0 +1,10 @@
+{
+  "type": "oblig6mod:add_item",
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:birch_leaves"
+    }
+  ],
+  "item": "oblig6mod:crewmate"
+}

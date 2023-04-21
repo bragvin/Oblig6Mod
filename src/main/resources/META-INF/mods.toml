@@ -21,15 +21,15 @@ modId="oblig6mod" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="1.0-1.19.3" #mandatory
  # A display name for the mod
-displayName="Oblig6-Mod" #mandatory
+displayName="Among Us" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+#logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Tobias Bragvin" #optional
+#credits="Tobias Bragvin" #optional
 # A text field displayed in the mod UI
 authors="Bragvin" #optional
 # Display Test controls the display for your mod in the server connection screen
