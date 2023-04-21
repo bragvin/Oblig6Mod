@@ -28,10 +28,10 @@ public class AddItemModifier extends LootModifier { // Denne codec-en legger til
 
     @Override
     protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
-        if(context.getRandom().nextFloat() >= 0.4f) { // Denne henter en liste ItemStack som er satt til at skal droppe ved et event
+        if(context.getRandom().nextFloat() >= 0.8f) { // Denne henter en liste ItemStack som er satt til at skal droppe ved et event
             generatedLoot.add(new ItemStack(item));   // f.eks at man får rotten flesh ved å drepe en Zombie, og legger til det itemet vi legger til
-        }                                             // I akkurat denne vil det nye itemet droppe 60% av gangene oak_leaves blir ødelagt.
-                                                      // nextFloat() er større enn 0.4 i 60% av tilfellene, da denne kan være alt mellom 1 og 0.
+        }                                             // I akkurat denne vil det nye itemet droppe 20% av gangene oak_leaves blir ødelagt.
+                                                      // nextFloat() er større enn 0.8 i 20% av tilfellene, da denne kan være alt mellom 1 og 0.
         return generatedLoot;
     }
 
