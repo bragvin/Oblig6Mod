@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1000,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "oblig6mod:crewmate"
+  },
+  "result": "oblig6mod:amogus"
+}
